@@ -1,0 +1,449 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>We Chai | Fresh Sips & Good Vibes</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+
+        <a class="navbar-brand" href="#home">
+            <span>W</span>e Chai.
+        </a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+                <li class="nav-item ms-lg-3">
+                    <a href="#menu" class="btn btn-dark rounded-pill px-4">
+                        Order Now ↗
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- HERO WITH BACKGROUND VIDEO -->
+<header class="hero" id="home">
+
+    <video class="hero-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        poster="https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg">
+
+        <source src="https://videos.pexels.com/video-files/3129671/3129671-hd_1920_1080_25fps.mp4" type="video/mp4">
+
+    </video>
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <span class="hero-label">☕ WELCOME TO WE CHAI</span>
+
+            <h1>
+                Sip The Moment.<br>
+                <span>Feel The Magic.</span>
+            </h1>
+
+            <p>
+                Freshly brewed chai, refreshing coolers
+                and delicious snacks. Your happiness
+                starts with one sip.
+            </p>
+
+            <a href="#menu" class="btn chai-btn">
+                Explore Menu ↗
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-bottom">
+        FRESH SIPS · GOOD VIBES · HAPPY MOMENTS
+    </div>
+
+</header>
+
+
+<!-- INTRO -->
+<section class="intro section-space">
+
+    <div class="container text-center">
+
+        <span class="section-label">OUR LITTLE WORLD</span>
+
+        <h2>
+            Every Cup Has<br>
+            <span>A Story.</span>
+        </h2>
+
+        <p class="section-description">
+            A perfect place for tea lovers, food lovers
+            and people who enjoy little happy moments.
+        </p>
+
+        <div class="intro-image">
+            <img
+                src="https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg"
+                alt="Beautiful cafe tea experience"
+                loading="lazy">
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- MENU -->
+<section class="menu-section section-space" id="menu">
+
+    <div class="container">
+
+        <div class="text-center">
+
+            <span class="section-label">TASTE THE HAPPINESS</span>
+
+            <h2>Our Special <span>Menu</span></h2>
+
+            <p class="section-description">
+                Discover your next favourite drink.
+            </p>
+
+        </div>
+
+
+        <!-- FILTERS -->
+        <div class="filters">
+
+            <button class="filter-btn active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-filter="tea">
+                Tea
+            </button>
+
+            <button class="filter-btn" data-filter="cooler">
+                Coolers
+            </button>
+
+            <button class="filter-btn" data-filter="snacks">
+                Snacks
+            </button>
+
+        </div>
+
+
+        <div class="row g-4">
+
+            <!-- MASALA TEA -->
+            <div class="col-md-6 col-lg-4 menu-item" data-category="tea">
+
+                <div class="food-card">
+
+                    <img
+                        src="https://images.pexels.com/photos/5946648/pexels-photo-5946648.jpeg"
+                        alt="Masala tea">
+
+                    <div class="food-info">
+                        <h4>Masala Chai</h4>
+                        <p>Traditional Indian tea.</p>
+                        <strong>₹25</strong>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- LIME COOLER -->
+            <div class="col-md-6 col-lg-4 menu-item" data-category="cooler">
+
+                <div class="food-card">
+
+                    <img
+                        src="https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg"
+                        alt="Fresh lime cooler">
+
+                    <div class="food-info">
+                        <h4>Lime Cooler</h4>
+                        <p>Fresh lemon and chilled refreshment.</p>
+                        <strong>₹50</strong>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- ICED TEA -->
+            <div class="col-md-6 col-lg-4 menu-item" data-category="tea">
+
+                <div class="food-card">
+
+                    <img
+                        src="https://images.pexels.com/photos/1194030/pexels-photo-1194030.jpeg"
+                        alt="Iced tea">
+
+                    <div class="food-info">
+                        <h4>Iced Tea</h4>
+                        <p>Cool and refreshing tea.</p>
+                        <strong>₹60</strong>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- SAMOSA -->
+            <div class="col-md-6 col-lg-4 menu-item" data-category="snacks">
+
+                <div class="food-card">
+
+                    <img
+                        src="https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg"
+                        alt="Indian crispy snack">
+
+                    <div class="food-info">
+                        <h4>Crispy Samosa</h4>
+                        <p>Crunchy and delicious.</p>
+                        <strong>₹20</strong>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- MOJITO -->
+            <div class="col-md-6 col-lg-4 menu-item" data-category="cooler">
+
+                <div class="food-card">
+
+                    <img
+                        src="https://images.pexels.com/photos/616836/pexels-photo-616836.jpeg"
+                        alt="Mint mojito cooler">
+
+                    <div class="food-info">
+                        <h4>Mint Mojito</h4>
+                        <p>Minty and refreshing.</p>
+                        <strong>₹70</strong>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- SANDWICH -->
+            <div class="col-md-6 col-lg-4 menu-item" data-category="snacks">
+
+                <div class="food-card">
+
+                    <img
+                        src="https://images.pexels.com/photos/1600727/pexels-photo-1600727.jpeg"
+                        alt="Grilled sandwich">
+
+                    <div class="food-info">
+                        <h4>Grilled Sandwich</h4>
+                        <p>Fresh, crispy and tasty.</p>
+                        <strong>₹65</strong>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <p class="text-center small text-secondary mt-4">
+            Sample prices. Confirm the actual shop menu before publishing.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- VIDEO BANNER -->
+<section class="video-banner">
+
+    <video autoplay muted loop playsinline
+        poster="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg">
+
+        <source src="https://videos.pexels.com/video-files/3129671/3129671-hd_1920_1080_25fps.mp4" type="video/mp4">
+
+    </video>
+
+    <div class="video-dark"></div>
+
+    <div class="container video-content">
+
+        <span class="section-label">TAKE A LITTLE BREAK</span>
+
+        <h2>
+            Good Chai.<br>
+            <span>Better Mood.</span>
+        </h2>
+
+        <a href="#contact" class="btn chai-btn">
+            Visit We Chai ↗
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section class="about-section section-space" id="about">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6">
+
+                <img
+                    class="about-image"
+                    src="https://images.pexels.com/photos/230477/pexels-photo-230477.jpeg"
+                    alt="Cafe interior">
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <span class="section-label">ABOUT WE CHAI</span>
+
+                <h2>
+                    Made With Love.<br>
+                    <span>Served Fresh.</span>
+                </h2>
+
+                <p>
+                    We Chai is all about bringing people
+                    together through delicious drinks,
+                    tasty food and unforgettable moments.
+                </p>
+
+                <div class="about-points">
+                    <p>✦ Freshly prepared drinks</p>
+                    <p>✦ Delicious snacks</p>
+                    <p>✦ Happy customer moments</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section class="contact-section section-space" id="contact">
+
+    <div class="container text-center">
+
+        <span class="section-label">FIND YOUR HAPPY PLACE</span>
+
+        <h2>Come & Enjoy <span>We Chai.</span></h2>
+
+        <p>We are waiting to serve you!</p>
+
+        <div class="location-card">
+
+            <h4>📍 Our Location</h4>
+
+            <p>
+                Periya Oorcheri, Alanganallur,<br>
+                Tamil Nadu 625501<br>
+                Near Sethupathi Nagar
+            </p>
+
+            <a
+                href="https://www.google.com/maps/search/?api=1&query=Periya+Oorcheri+Alanganallur+Tamil+Nadu+625501"
+                target="_blank"
+                rel="noopener"
+                class="btn chai-btn">
+
+                Get Directions ↗
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="container text-center">
+
+        <h3>We Chai.</h3>
+
+        <p>Sip. Smile. Repeat.</p>
+
+        <hr>
+
+        <p class="copyright">
+            © <span id="year"></span> We Chai. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<button id="topBtn" aria-label="Back to top">↑</button>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
